@@ -99,6 +99,14 @@ button.ghost:hover { border-color: #ffb08f; color: var(--ink); }
 .tags { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; }
 .tag { font-size: 12px; padding: 4px 10px; border-radius: 99px; background: var(--soft); border: 1px solid var(--line); }
 
+.text-btn {
+  font: inherit; font-size: 13px; cursor: pointer; align-self: center;
+  padding: 6px 10px; border: 0; background: transparent; color: var(--sub);
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.text-btn:hover { color: var(--accent); }
+.giveup-title { color: var(--accent); }
+
 .others { margin-top: 22px; padding-top: 16px; border-top: 1px dashed var(--line); }
 .others p { margin: 0 0 8px; font-size: 12px; color: var(--sub); }
 .mini {
